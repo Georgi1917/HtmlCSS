@@ -1,0 +1,50 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #CCCCCC;
+}
+
+nav ul {
+    background-color: #444;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+nav ul li {
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    padding: 20px;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin-left: 20px;
+}
+
+section article header h1 {
+    font-size: 30px;
+}
+
+section article header p {
+    font-style: italic;
+}
+
+footer {
+    background-color: #444;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+footer p {
+    line-height: 5px;
+}
+
