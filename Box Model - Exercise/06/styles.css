@@ -1,0 +1,35 @@
+body {
+    margin: 70px 65px;
+    font-family: Helvetica, sans-serif;
+}
+
+.nav-header {
+    border-bottom: 2px solid black;
+}
+
+.nav-header h1 {
+    text-transform: uppercase;
+}
+
+.nav-header nav {
+    margin-left: 7em;
+}
+
+.nav-header h1,
+.nav-header nav {
+    display: inline-block;
+}
+
+.nav-header ul li {
+    display: inline;
+    margin-left: 12px
+}
+
+.nav-header ul li a {
+    text-decoration: none;
+    color: green;
+}
+
+.nav-header ul li a:hover {
+    color: lightblue;
+}
