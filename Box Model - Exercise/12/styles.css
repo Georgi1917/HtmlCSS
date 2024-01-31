@@ -1,0 +1,71 @@
+body {
+    padding: 7em 12em 7em 12em;
+    background-color: rgb(238, 238, 238);
+}
+
+header p,
+header nav {
+    display: inline-block;
+}
+
+.first-header nav {
+    margin-left: 38em;
+    vertical-align: top;
+}
+
+.first-header nav ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+.first-header {
+    border-bottom: 2px solid black;
+    width: fit-content;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: bolder;
+    margin: 0;
+}
+
+main {
+    width: 55%;
+}
+
+main, aside {
+    display: inline-block;
+}
+
+aside {
+    vertical-align: top;
+    margin-left: 7em;
+}
+
+img {
+    padding: 10px;
+    margin: 0 6px 6px 8px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+img.first {
+    float: right;
+}
+
+img.second {
+    float: left;
+}
+
+blockquote {
+    float: right;
+}
+
+.author {
+    text-align: right;
+}
