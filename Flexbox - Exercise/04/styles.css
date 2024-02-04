@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    padding: 4rem;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+main, aside {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+span {
+    padding: 2rem;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.workweeks {
+    flex: 1 1 100%;
+}
+
+.weekend {
+    flex: 1 1 100%;
+}
+
+.work {
+    flex: 1 1 10%;
+}
+
+.rest1 {
+    flex: 1 1 auto;
+}
+
+.rest2 {
+    flex: 1 1 auto;
+}
+
+.reminder {
+    flex: 1 1 100%;
+}
+
+.special {
+    flex: 1 1 auto;
+}

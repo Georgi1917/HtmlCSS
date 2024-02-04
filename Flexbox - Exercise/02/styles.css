@@ -1,0 +1,10 @@
+section {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+}
+
+article {
+    max-width: 20%;
+}
+
