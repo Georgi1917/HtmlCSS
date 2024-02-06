@@ -1,0 +1,50 @@
+body {
+    margin: 4em 0 0 4em;
+}
+
+.site-main {
+    display: flex;
+    gap: 3em;
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+.article {
+    flex: 0 0 60%;
+}
+
+.aside {
+    flex: 0 0 auto;
+}
+
+img {
+    display: block;
+    padding: 0.5em;
+    background-color: #fff;
+    border: 3px solid black;
+    box-shadow: 0 0 3px black, 0 0 3px black inset;
+}
+
+.first-img {
+    float:right;
+    margin: 0px 0px 0.7em 0.7em;
+}
+
+.second-img {
+    float: left;
+    margin: 0px 0.7em 0.7em 0px;
+}
+
+blockquote {
+    float: right;
+    width: 50%;
+    font-family: Georgia, serif;
+    border-left: 2px solid gray;
+    padding-left: 1em;
+}
+
+.author {
+    text-align: right;
+}
