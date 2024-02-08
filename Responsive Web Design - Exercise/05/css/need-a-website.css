@@ -1,0 +1,29 @@
+.need-a-website {
+    display: flex;
+    justify-content: center;
+    gap: 4.5em;
+    margin-top: 4.5em;
+}
+
+.need-a-website .text-website {
+    flex: 0 0 30%;
+}
+
+.need-a-website .text-website h2,
+.need-a-website .text-website p,
+.need-a-website .text-website a {
+    margin: 0 0 1em 0;
+}
+
+.need-a-website .image {
+    flex: 0 0 auto;
+    display: flex;
+}
+
+.need-a-website .image img {
+    display: block;
+    width: 150px;
+    height: auto;
+    background-color: black;
+    border-radius: 50%;
+}

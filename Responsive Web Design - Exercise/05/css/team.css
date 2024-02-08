@@ -1,0 +1,39 @@
+.our-team {
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.heading {
+    text-align: center;
+    width: 100%;
+}
+
+.empty {
+    width: 70px;
+    border: 1px solid black;
+    margin: 1em auto;
+}
+
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    margin: 0 auto;
+    width: 40%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.person img,
+.person .name,
+.person .description {
+    margin: 0 0 1em 0;
+}
+
+.person img {
+    display: block;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}

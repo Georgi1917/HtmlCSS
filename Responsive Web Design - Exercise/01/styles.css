@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+header, section div, footer {
+    background-color: lightblue;
+    border-radius: 12px;
+}
+
+section {
+    display: flex;
+    gap: 2em;
+}
+
+section div {
+    min-height: 20vh;
+    padding: 1.5em;
+}
+
+section .list {
+    flex: 0 0 20%;
+}
+
+section .tasks {
+    flex: 1 0 auto
+}
+
+section .list ul {
+    padding: 0;
+}
+
+section .list ul li {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+@media (max-width: 500px) {
+    section {
+        flex-direction: column;
+    }
+}

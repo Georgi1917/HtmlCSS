@@ -1,0 +1,11 @@
+footer {
+    display: flex;
+    gap: 4.5em;
+    justify-content: center;
+    border-top: 1px solid black;
+    margin-top: 5em;
+}
+
+footer ul {
+    list-style-type: none;
+}

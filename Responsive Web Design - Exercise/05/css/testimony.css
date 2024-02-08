@@ -1,0 +1,32 @@
+.people-testimony {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5em;
+    margin: 0 auto;
+    width: 50%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.testimonee {
+    width: 25%;
+}
+
+.testimonial {
+    text-align: center;
+}
+
+.testimonee img,
+.testimonee .name,
+.testimonee .description,
+.testimonee .testimony {
+    margin: 0 0 1em 0;
+}
+
+.testimonee img {
+    display: block;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin: auto;
+}
